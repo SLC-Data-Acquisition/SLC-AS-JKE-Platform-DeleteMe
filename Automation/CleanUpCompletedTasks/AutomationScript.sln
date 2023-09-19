@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{58192D8F-EC30-401D-97CE-33B7F8CC2FFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{CE0F40B5-CEBD-4641-938F-4B56510045EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{12F511EB-B398-4CFB-B7EC-B74526E674C0}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{257DBE70-E22F-4ACA-B62D-6B38080C28A8}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{78CBA313-7219-4B11-8C1B-D1D2AF1DD875}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\SonarLint-QuickActions-Active.ruleset = Internal\Code Analysis\SonarLint-QuickActions-Active.ruleset
+		Internal\Code Analysis\SonarLint-QuickActions-Inactive.ruleset = Internal\Code Analysis\SonarLint-QuickActions-Inactive.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{B6E02F51-0F05-4C37-851A-37106D4EE00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanUpCompletedTasks", "CleanUpCompletedTasks", "{E9385642-70B8-43B9-8F6C-FA29E789833F}"
+	ProjectSection(SolutionItems) = preProject
+		CleanUpCompletedTasks.xml = CleanUpCompletedTasks.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{B08938AA-6349-4CCC-B5D7-366009579EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanUpCompletedTasks_1", "CleanUpCompletedTasks_1\CleanUpCompletedTasks_1.csproj", "{14D44DF1-F90F-45E1-8F47-8232BAAFB89C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6E02F51-0F05-4C37-851A-37106D4EE00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E02F51-0F05-4C37-851A-37106D4EE00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E02F51-0F05-4C37-851A-37106D4EE00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E02F51-0F05-4C37-851A-37106D4EE00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D44DF1-F90F-45E1-8F47-8232BAAFB89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D44DF1-F90F-45E1-8F47-8232BAAFB89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D44DF1-F90F-45E1-8F47-8232BAAFB89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D44DF1-F90F-45E1-8F47-8232BAAFB89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78CBA313-7219-4B11-8C1B-D1D2AF1DD875} = {58192D8F-EC30-401D-97CE-33B7F8CC2FFB}
+		{B6E02F51-0F05-4C37-851A-37106D4EE00A} = {58192D8F-EC30-401D-97CE-33B7F8CC2FFB}
+		{E9385642-70B8-43B9-8F6C-FA29E789833F} = {CE0F40B5-CEBD-4641-938F-4B56510045EE}
+		{B08938AA-6349-4CCC-B5D7-366009579EBD} = {E9385642-70B8-43B9-8F6C-FA29E789833F}
+		{14D44DF1-F90F-45E1-8F47-8232BAAFB89C} = {B08938AA-6349-4CCC-B5D7-366009579EBD}
+	EndGlobalSection
+EndGlobal

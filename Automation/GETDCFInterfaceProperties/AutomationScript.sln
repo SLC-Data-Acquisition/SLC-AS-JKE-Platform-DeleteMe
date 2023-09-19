@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{94EBCEC9-88C9-4E9A-9B02-12D41D34C64D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E930F139-DE0D-48E8-B556-FB0CE88F4989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{D56D5393-0395-4389-8AF4-EC47859783AD}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{04D4118C-9086-4D39-848B-85A7774C98D8}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{EC752F13-0282-4E50-B9C7-B7BFA31313A4}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\SonarLint-QuickActions-Active.ruleset = Internal\Code Analysis\SonarLint-QuickActions-Active.ruleset
+		Internal\Code Analysis\SonarLint-QuickActions-Inactive.ruleset = Internal\Code Analysis\SonarLint-QuickActions-Inactive.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{7106DC72-0E44-441D-99BC-661A0F3F90E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GETDCFInterfaceProperties", "GETDCFInterfaceProperties", "{240FC459-03D3-4B4B-9B1C-EA28A39B5DC5}"
+	ProjectSection(SolutionItems) = preProject
+		GETDCFInterfaceProperties.xml = GETDCFInterfaceProperties.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7106DC72-0E44-441D-99BC-661A0F3F90E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7106DC72-0E44-441D-99BC-661A0F3F90E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7106DC72-0E44-441D-99BC-661A0F3F90E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7106DC72-0E44-441D-99BC-661A0F3F90E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC752F13-0282-4E50-B9C7-B7BFA31313A4} = {94EBCEC9-88C9-4E9A-9B02-12D41D34C64D}
+		{7106DC72-0E44-441D-99BC-661A0F3F90E9} = {94EBCEC9-88C9-4E9A-9B02-12D41D34C64D}
+		{240FC459-03D3-4B4B-9B1C-EA28A39B5DC5} = {E930F139-DE0D-48E8-B556-FB0CE88F4989}
+	EndGlobalSection
+EndGlobal

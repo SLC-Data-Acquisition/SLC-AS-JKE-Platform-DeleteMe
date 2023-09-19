@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodePackage xmlns="http://www.skyline.be/ClassLibrary">
+	<Identity>
+    <Name>Flow Engineering</Name>
+		<Version>0.0.0.1</Version>
+	</Identity>
+	<MinimumRequiredVersion>10.0.3.0-8964</MinimumRequiredVersion>
+	<Dependencies>
+		<Dependency min="1.1.2.13">Class Library</Dependency>
+	</Dependencies>
+</CodePackage>

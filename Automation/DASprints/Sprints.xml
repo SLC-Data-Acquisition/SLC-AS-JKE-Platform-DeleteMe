@@ -1,0 +1,24 @@
+<DMSScript options="272">
+  <Name>Sprints</Name>
+  <Description>
+  </Description>
+  <Type>Automation</Type>
+  <Author>SKYLINE2\Sebastiaan</Author>
+  <CheckSets>FALSE</CheckSets>
+  <Folder>Roadmap/Data sources</Folder>
+  <Protocols>
+  </Protocols>
+  <Memory>
+  </Memory>
+  <Parameters>
+  </Parameters>
+  <Script>
+    <Exe id="2" type="csharp">
+      <Value><![CDATA[[Project:Sprints_2]]]></Value>
+      <Param type="preCompile">true</Param>
+      <Param type="libraryName">Sprints</Param>
+      <Message>
+      </Message>
+    </Exe>
+  </Script>
+</DMSScript>
